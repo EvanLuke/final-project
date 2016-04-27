@@ -1,0 +1,5 @@
+
+The program is a simple game of hangman. 
+I will use a function to make get the guess for a letter and make sure it is a lowercase alphabetical letter. 
+That function will pass it to a while true loop. That loop will continue until the board compiles all of the 
+letters of the secret word, or the number of attempts goes from 10 to 0. 

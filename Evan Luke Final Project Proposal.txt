@@ -1,0 +1,12 @@
+
+
+Evan Luke
+
+Hangman Game 
+I would like to create a game of hangman. Or something very similar, where the program chooses a random word from a list. Then the user is prompted to guess a letter, and would only have a certain amount of attempts. The program would have to make sure the user enters only one letter at a time and then check if it is in the word.
+
+This project would cover a few concepts from the course. It would use strings, if/elif functions, lists, etc.
+
+I think I can finish it in a week. I have already jotted down an idea of how it would look.
+
+I am just curious if it would be to hard for only one week.
