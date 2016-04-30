@@ -1,5 +1,15 @@
 
 The program is a simple game of hangman. 
-I will use a function to make get the guess for a letter and make sure it is a lowercase alphabetical letter. 
-That function will pass it to a while true loop. That loop will continue until the board compiles all of the 
-letters of the secret word, or the number of attempts goes from 10 to 0. 
+The first function will get a random word from a list of words under the 'words' variable. 
+
+The second function will take the input from the user. It will test it to make sure it is one single lowercase letter, and if 
+it has already been guessed. This function will print the amount of mistakes you have left and it will print the letters you have 
+already used. 
+
+The third function uses a While True loop, it takes the input and checks if it is in the randomly picked word. If it is it will add it to the 'board' 
+if not it will add it to 'alreadyGuessed'. 
+
+The third function also subtracts every mistake you made from a mistake variable, and checks if the mistakes are less then 1, the 
+function breaks and the user will lose, and the secret word will be shown. 
+
+The program runs until the board equals the secret word, or the amount of mistakes is less then 1. 
